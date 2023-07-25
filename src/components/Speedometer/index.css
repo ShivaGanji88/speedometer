@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+.two-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.image-setting {
+  width: 300px;
+  height: 125px;
+}
+@media screen and (min-width: 768px) {
+  .image-setting {
+    width: 700px;
+    height: 300px;
+  }
+}
+.speed0 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: Roboto;
+}
+@media screen and (min-width: 768px) {
+  .speed0 {
+    font-size: 24px;
+  }
+}
+.para {
+  color: #ffffff;
+  font-size: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+}
+.button-color {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+}
+.break-color {
+  background-color: #07080c;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  border-style: solid;
+  font-weight: 500px;
+}
